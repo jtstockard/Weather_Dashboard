@@ -15,3 +15,12 @@
 4. LOCALSTORAGE
 *Implement localstorage in the input selection to save console data
  */
+
+var searchBtn = $(".searchButton");
+
+const YOUR_API_KEY = "c2c522dc356d35787144fc3d640d1650";
+
+for (var i = 0; i < localStorage.length; i++) {
+  var city = localStorage.getItem(i);
+  console.log(localStorage.getItem("City"));
+}

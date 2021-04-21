@@ -14,6 +14,59 @@
     <title>Weather Dashboard</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="card">
+        <div class="card-body text-center bg-dark text-white">
+          <h1>Weather Dashboard</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-body text-center">
+              <div class="card" style="width: 18rem">
+                <div class="card-body bg-light">
+                  <h6 class="card-subtitle mb-2 text-muted">City Search</h6>
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control searchInput"
+                      placeholder="Enter City Name"
+                    />
+                    <div class="input-group-append">
+                      <button
+                        class="btn btn-outline-secondary bg-primary searchButton"
+                        type="button"
+                        id="button-addon2"
+                      >
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+
+                  <ul class="list-group"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-4 mr-5">
+            <div class="card currentCard pb-2 pt-1">
+              <h5 class="card-title mt-2 text-center">Current Forecast</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mt-4">
+              <div class="card pb-5 fiveDayCard pl-5">
+                <h5 class="card-title mt-2 mr-5">5-Day Forecast</h5>
+                <div class="row">
+                  <div class="col fiveDayOne"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha384-S58meLBGKxIiQmJ/pJ8ilvFUcGcqgla+mWH9EEKGm6i6rKxSTA2kpXJQJ8n7XK4w"
@@ -24,7 +77,7 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/d3bce829f3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b1cb290aee.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-ajax-uploader/2.6.7/SimpleAjaxUploader.min.js"></script>
     <script src="Assets/script.js"></script>
   </body>

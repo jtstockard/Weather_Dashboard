@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+}
+
+li {
+  border-bottom: 1px solid lightslategray;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+}
