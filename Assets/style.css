@@ -23,3 +23,17 @@ img {
   margin: 10px;
   border: 1px solid lightgray;
 }
+.low {
+  background-color: #61ff88;
+  color: black;
+}
+
+.moderate {
+  background-color: #ebe97e;
+  color: black;
+}
+
+.severe {
+  background-color: #db5c46;
+  color: white;
+}
